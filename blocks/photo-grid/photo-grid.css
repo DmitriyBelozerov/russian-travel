@@ -4,5 +4,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-    max-width: 1184px;
 }   
+
+@media (max-width: 1279px) {
+    .photo-grid {
+        gap: 14px;
+    }
+}

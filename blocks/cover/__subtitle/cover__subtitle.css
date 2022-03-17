@@ -10,3 +10,7 @@
     z-index: 1;
     color: #FFF;
 }
+
+.cover__subtitle:hover ~ .cover__background{
+    opacity: 0.5;
+}

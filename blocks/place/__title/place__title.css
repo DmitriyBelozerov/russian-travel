@@ -2,7 +2,7 @@
     font-size: 72px;
     font-weight: bolder;
     line-height: 1.05;
-    margin: 0;
+    margin: 0 0 48px 0;
     padding: 0;
-    align-self: end;
+    align-self: start;
 }

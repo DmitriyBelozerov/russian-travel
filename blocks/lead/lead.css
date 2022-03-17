@@ -2,7 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 296px);
     height: auto;
-    
+    padding-top: 28px;
+}
+
+@media (max-width: 1279px) {
+    .lead {
+        width: calc(100% - 96px);
+    }
 }
