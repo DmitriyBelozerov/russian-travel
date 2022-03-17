@@ -1,5 +1,5 @@
 .header {
-    /*width: calc(100% - 96px);*/
+    width: calc(100% - 96px);
     min-height: 52px;
     display: flex;
     flex-direction: row;

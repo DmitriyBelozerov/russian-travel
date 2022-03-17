@@ -1,0 +1,14 @@
+.cover {
+    width: 92%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    "title"
+    "subtitle";
+    gap: 32px;
+    text-decoration: none;
+}
