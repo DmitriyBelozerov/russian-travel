@@ -10,3 +10,19 @@
         width: calc(100% - 96px);
     }
 }
+
+@media (max-width: 1023px) {
+    .intro {
+        padding-top: 88px;
+        padding-bottom: 88px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        width: calc(100% - 32px);
+    }
+}

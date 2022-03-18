@@ -1,4 +1,6 @@
 .footer__link {
+    font-size: 16px;
+    line-height: 1.1;
     color: #fff;
     text-decoration: none;
     margin-right: 18px;
@@ -8,4 +10,17 @@
 
 .footer__link:hover {
     opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
 }
