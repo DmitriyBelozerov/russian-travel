@@ -2,7 +2,7 @@
 
 @media (max-width: 767px) {
     .footer__links {
-        display: flex; 
+        display: flex;
         flex-direction: column;     
     }
 }
